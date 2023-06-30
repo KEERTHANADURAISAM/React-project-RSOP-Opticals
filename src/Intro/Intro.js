@@ -1,24 +1,28 @@
 import React from 'react'
-
-import img1 from './images/photo-1595189071569-e6f3acbc4ccb.jpg'
+import './Intro.css'
+import img1 from './images/Fashionable-Women-Wearing-Sunglasses-PNG.png'
+import Cards from '../Cards/Cards'
 const Intro = () => {
   return (
-    <div> 
-         <div classname="grid-container">
-     <div >
-        <h4>IMPRODEV VISION AN IMPROVED LIFE</h4>
-        <h2>You Eyes Were
-          Closed,They're Open 
+    <div>
+            <div className="grid-container">
+     <div className='grid-div'>
+        <h6>Improdev Vision An Improdev Life </h6><br/>
+        <h2 className='head-content'>You Eyes Were<br/>
+          Closed,They're Open <br/>
           Now.</h2>
-          <button>Appoinment</button>
+          <button className='btn-intro'>Visit Our Shop</button>
           </div>
-      <div>
-        <img src={img1}/>
+      <div className='intro-img-div'>
+        <img src={img1} className='intro-img'/>
       
        </div>
+      
     </div>
+    <div className='Card-position'>
+    <Cards/>
+    </div>  
     </div>
-
   )
 }
 

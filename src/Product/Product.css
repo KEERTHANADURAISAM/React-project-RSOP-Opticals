@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Cabin&family=Caveat:wght@700&family=Dancing+Script:wght@400;500&family=Foldit&family=League+Spartan:wght@500&family=Literata:wght@300;400&family=Noto+Serif+NP+Hmong:wght@500&family=Pacifico&family=Paytone+One&family=Poppins:ital,wght@1,300&family=Roboto:ital,wght@0,300;0,400;1,400&family=Sedgwick+Ave+Display&family=Slackey&display=swap');
+
+.product-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pro-head{
+    padding: 5px;
+    margin-top: 40px;
+}
+.pro-content{
+    display: flex;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 200;
+    font-family: 'cabin';
+    text-align: start;
+    
+}
+.pro-imgs{
+    display: flex;
+    justify-content: center;
+    
+gap: 40px;
+margin-left: 30px;
+}
+.img-flex{
+    background-color: #F9F9F9;
+    padding: 20px;
+}
+.img-name{
+    text-align: center;
+}

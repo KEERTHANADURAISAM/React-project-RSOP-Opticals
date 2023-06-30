@@ -1,7 +1,47 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Cabin&family=Caveat:wght@700&family=Dancing+Script:wght@400;500&family=Foldit&family=League+Spartan:wght@500&family=Literata:wght@300;400&family=Noto+Serif+NP+Hmong:wght@500&family=Pacifico&family=Paytone+One&family=Poppins:ital,wght@1,300&family=Roboto:ital,wght@0,300;0,400;1,400&family=Sedgwick+Ave+Display&family=Slackey&display=swap');
+
 .grid-container{
-    display:grid;
-    grid-template-columns: repeat(2,auto);
+    display: grid;
+    grid-template-columns: repeat(2,480px);
+    gap: 80px;
+    background-color:#ebe9e9;
+    position: relative;
+    
 }
 .grid-div{
-    display: grid;
+  font-family: 'Cabin';
+  display: flex;
+  flex-direction:column;
+  margin-left: 150px;
+  margin-top: 100px; 
+}
+.head-content{
+    padding:5px;
+    font-size:28px;
+    letter-spacing:2px;
+    font-weight: 400;
+    font-style: normal;
+}
+.btn-intro{
+    padding: 10px;
+    width: 150px;
+    background-color:#007AC8;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+    color: azure;
+    border: none;
+    border-radius:5px;
+}
+.intro-img-div{
+    display: flex;
+margin-left: 280px;    
+}
+.intro-img-div{
+    height:400px;
+    width: 400px;
+}
+.Card-position{
+    position:absolute;
+    bottom:138px;
+    left:320px
 }
