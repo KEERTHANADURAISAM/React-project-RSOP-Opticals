@@ -2,7 +2,7 @@
 .about-grid{
     display: grid;
     grid-template-columns: repeat(2,550px);
-    margin-top: 170px;
+    
     background-color: #F9F9F9;
     gap: 40px;
 }

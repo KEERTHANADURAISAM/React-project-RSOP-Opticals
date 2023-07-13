@@ -5,7 +5,7 @@ import powerglasses from'./Product-img/Screenshot 2023-06-29 140201.png';
 import lens from'./Product-img/Screenshot 2023-06-29 140219.png';
 const Product = () => {
   return (
-    <div >
+    <div id='product'>
         <div className='product-div'>
             <p className='pro-head'>PRODUCTS</p>
             <p className='pro-content'>Hot from last seasons</p>
