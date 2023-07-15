@@ -10,6 +10,7 @@ const Navbar = () => {
     navigate('/contact')
   }
   return (
+    
     <div className='nav-main-div'>
 <nav className='navbar-nav'>
 <div className='logo-div'>

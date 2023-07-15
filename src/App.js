@@ -8,18 +8,16 @@ import BookAppoinment from './Appoinment/BookAppoinment';
 import Footer from './Footer/Footer';
 import Base from './Base/Base';
 import Contact from './Contact/Contact';
-import Header from './HeaderScroll/Header';
+
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter> 
       <Routes>
-        {/* <Route path="/" element={<Contact/>}/> */}
-        {/* <Route path="/contact" element={<Contact/>}/> */}
-        {/* <Route path="/" element={<Header/>}/> */}
-         {/* <Route path='/' element={<Navbar/>}/> */}
-        <Route path='/' element={<Intro/>}/>  
+      <Route path='/' element={<Intro/>}/>  
+        <Route path='/contact' element={<Contact/>}/>        
+        
       </Routes>
       </BrowserRouter>
       

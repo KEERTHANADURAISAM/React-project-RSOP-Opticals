@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Aclonica&family=Cabin&family=Caveat:wght@700&family=Dancing+Script:wght@400;500&family=Foldit&family=League+Spartan:wght@500&family=Literata:wght@300;400&family=Noto+Serif+NP+Hmong:wght@500&family=Pacifico&family=Paytone+One&family=Poppins:ital,wght@1,300&family=Roboto:ital,wght@0,300;0,400;1,400&family=Sedgwick+Ave+Display&family=Slackey&display=swap");
+.contact-main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.contact-head {
+  color: rgb(250, 175, 77);
+  font-size: 18px;
+}
+.contact-sub-head {
+  font-size: 25px;
+  font-family: "cabin";
+  letter-spacing: 1px;
+}
+.contact-sub-content {
+  text-align: center;
+}
+.contact-Tests {
+  display: flex;
+  height: 400px;
+  width: 100%;
+  gap: 20px;
+}
+.contact-img-div {
+  display: flex;
+  flex-direction: column;
+  margin-left: 80px;
+  padding: 15px;
+}
+.contact-img {
+  border: 1px solid #ede9dd;
+  border-radius: 3px;
+  height: 300px;
+  width: 300px;
+  /* margin-top: 100px; */
+  margin-left: 20px;
+}
+.contact-test-head {
+  display: flex;
+  justify-content: start;
+  font-size: 20px;
+  padding: 5px;
+  margin-left: 15px;
+}
+.contact-content-text {
+  text-align: justify;
+  margin-left: 20px;
+}
+.contact-img-div-test {
+  display: flex;
+  justify-content: center;
+  gap: 180px;
+  height: 200px;
+  width: 100%;
+  background-color: #f4f2ef;
+}
+.contact-img-div-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  margin-left: 5px;
+}
+.check-img{
+    height: 80px;
+    width: 80px;
+    margin-left: 5px;
+}
+.get-msg{
+  background-color: aliceblue;
+}
+.get-msg-main-div{
+    display: grid;
+    grid-template-columns: repeat(2,340px);
+    padding: 15px;
+    gap: 40px;
+    background-color: aliceblue;
+  }
+.get-inputbox{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.get-head{
+    font-size: 25px;
+    font-family: "cabin";
+    letter-spacing: 1px;
+}
+.input-box{
+    padding: 10px;
+}
+.textarea-box{
+    padding: 10px;
+    height: 100px;
+}
+.send-btn{
+    padding: 10px;
+    font-family: "cabin";
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+.contact-grid{
+  display: grid;
+  grid-template-columns: repeat(2,100px);
+  gap: 100px;
+  margin-left: 150px;
+  margin-top: 100px;
+  background-color: aliceblue;
+}
+.contact-flex-items{
+  /* height: 200px;
+  width: 280px; */
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 5px;
+}
+.contact-icons{
+  height:30px;
+  width:30px;
+}
