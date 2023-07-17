@@ -116,8 +116,8 @@
   background-color: aliceblue;
 }
 .contact-flex-items{
-  /* height: 200px;
-  width: 280px; */
+  height: 200px;
+  width: 280px;
   display: flex;
   flex-direction: column;
   padding: 10px;
