@@ -6,6 +6,9 @@ import { Link, animateScroll as scroll} from 'react-scroll';
 
 const Navbar = () => {
   const navigate=useNavigate();
+  const HomePage=()=>{
+    navigate('/home')
+  }
   const NavContact=()=>{
     navigate('/contact')
   }
@@ -17,8 +20,8 @@ const Navbar = () => {
 <img src={imglogo} alt='logo' className='img-logo' onClick={()=>scroll.scrollToTop()}/>
 </div>
     <ul className='nav-ul'>
-        <li>Home</li>
-        <li><Link to="Product" smooth={true} duration={500}>Products</Link></li>
+        <li onClick={HomePage}>Home</li>
+        <li>Products</li>
         <li>Accessories</li>
         <li><button className='contact-btn' onClick={NavContact}>Contact us</button></li>
     </ul>
