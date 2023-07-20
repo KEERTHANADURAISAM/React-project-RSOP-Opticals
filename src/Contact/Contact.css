@@ -5,10 +5,12 @@
   justify-content: center;
   align-items: center;
   gap: 20px;
+  
 }
 .contact-head {
   color: rgb(250, 175, 77);
   font-size: 18px;
+  margin-top: 120px;
 }
 .contact-sub-head {
   font-size: 25px;
