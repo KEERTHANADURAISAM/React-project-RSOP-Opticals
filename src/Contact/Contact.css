@@ -107,7 +107,7 @@
     letter-spacing: 1px;
     font-size: 18px;
 }
-.contact-grid{
+/* .contact-grid{
   display: grid;
   grid-template-columns: repeat(2,100px);
   gap: 100px;
@@ -126,4 +126,24 @@
 .contact-icons{
   height:30px;
   width:30px;
+} */
+.main-grid{
+  display: grid;
+  grid-template-columns: repeat(2,400px);
+  gap: 80px;
+background-color: aliceblue;
+}
+.subgrid-contact{
+  display: grid;
+  grid-template-columns: repeat(2,380px);
+}
+/* .media-details{ */
+  /* display: flex;
+  flex-direction: column; */
+  
+/* } */
+.media-icons{
+  
+  height: 30px;
+  width: 30px;
 }

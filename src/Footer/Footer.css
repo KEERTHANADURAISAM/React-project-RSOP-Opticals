@@ -1,7 +1,17 @@
 .foot-main-div{
+    display: grid;
+    grid-template-columns: repeat(4,320px);
     background-color: #e8e5e5;
-    display: flex;
     gap:40px;
-    padding: 20px;
-        
+    padding: 20px;    
+}
+.foot-head{
+    margin-top: 30px;
+    margin-left: 30px;
+    letter-spacing: 2px;
+}
+.foot-contact{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 2px;
 }

@@ -12,6 +12,7 @@ import mobile from './telephone.png'
 import email from './email.png'
 import watsapp from './whatsapp.png'
 import location from './pin.png'
+import ContactMedias from './ContactMedias';
 
 const Contact = () => {
   return (
@@ -59,43 +60,10 @@ consectetur adipisicing elit.<br></br>Beatae,corruptieos quod aperiam</p>
 <p className='contact-text'>Lorem ipsum</p>
 </div>
 </div>
-
-  <div className='get-msg-main-div'>
-    <div className='get-inputbox'>
-      <p className='get-head'>Get In Touch With Us</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-  <br></br>Beatae,corruptieos quod aperiam.Lorem ipsum dolor sit amet
-consectetur adipisicing elit.<br></br>Beatae,corruptieos quod aperiam</p>
-<input type='text' placeholder='Name' className='input-box'/>
-<input type='text' placeholder='E-mail'className='input-box'/>
-<textarea type='text' placeholder='Comment'className='textarea-box'/>
-<button className='send-btn'>Send</button>
-    </div>
-<div className='contact-grid'>
-<div className='contact-flex-items'>
-<img src={mobile} alt=" " className='contact-icons'/>
-<p>Phone Number</p>
-<p>044-4626023</p>
-<div className='contact-flex-items'>
-<img src={watsapp} alt=" " className='contact-icons'/>
-<p>Watsapp Number</p>
-<p>8122077789</p>
 </div>
-</div>
-<div className='contact-flex-items'>
-<img src={email} alt=" " className='contact-icons'/>
-<p>Email-address</p>
-<p>rsopopticals@gmail.com</p>
-<img src={location} alt=" " className='contact-icons'/>
-<p>Our Location</p>
-<p>Rsop||Opticals</p>
-<p>393,kamarajar road,peelamedu post</p>
-<p>coimbatore-641004</p>
-</div>
-</div>
-</div>
-     </div>
-  
+  <div>
+    <ContactMedias/>
+  </div>
 
    </Base>
   )

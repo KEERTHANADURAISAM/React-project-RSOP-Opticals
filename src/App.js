@@ -8,8 +8,7 @@ import BookAppoinment from './Appoinment/BookAppoinment';
 import Footer from './Footer/Footer';
 import Base from './Base/Base';
 import Contact from './Contact/Contact';
-
-
+import ContactMedias from './Contact/ContactMedias';
 function App() {
   return (
     <div className="App">
@@ -17,8 +16,7 @@ function App() {
       <Routes>
       <Route path='/' element={<Intro/>}/>  
         <Route path='/contact' element={<Contact/>}/>        
-        
-      </Routes>
+        </Routes>
       </BrowserRouter>
       
     
