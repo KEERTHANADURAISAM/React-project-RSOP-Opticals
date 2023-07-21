@@ -3,10 +3,10 @@
 
 .grid-container{
   width: 1268px;
-    display: grid;
-    grid-template-columns: repeat(2,480px);
-    gap: 80px;
-    background-color:#ebe9e9;  
+  display: grid;
+  grid-template-columns: repeat(2,480px);
+  gap: 80px;
+  background-color:#ebe9e9;  
    
 }
 .grid-div{
