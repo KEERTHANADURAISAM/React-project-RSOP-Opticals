@@ -65,7 +65,7 @@ const Intro = () => {
           </div>
         </div>
       </div>
-      <div>
+      <div className="add-items">
         <About />
         <Product />
         <BookAppoinment />

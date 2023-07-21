@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Cabin&family=Caveat:wght@700&family=Dancing+Script:wght@400;500&family=Foldit&family=League+Spartan:wght@500&family=Literata:wght@300;400&family=Noto+Serif+NP+Hmong:wght@500&family=Pacifico&family=Paytone+One&family=Poppins:ital,wght@1,300&family=Roboto:ital,wght@0,300;0,400;1,400&family=Sedgwick+Ave+Display&family=Slackey&display=swap');
 
 .grid-container{
+  width: 100%;
     display: grid;
     grid-template-columns: repeat(2,480px);
     gap: 80px;
@@ -74,4 +75,7 @@ margin-left: 280px;
    }
 .card-content{
   margin-left: 10px;
+}
+.add-items{
+  width: 100%;
 }
