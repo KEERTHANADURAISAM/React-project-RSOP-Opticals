@@ -42,7 +42,7 @@
 }
 .contact-test-head {
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   font-size: 20px;
   padding: 5px;
   margin-left: 15px;

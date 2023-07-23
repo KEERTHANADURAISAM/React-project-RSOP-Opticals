@@ -10,6 +10,7 @@ import Base from './Base/Base';
 import Contact from './Contact/Contact';
 import ContactMedias from './Contact/ContactMedias';
 import ProductPage from './Product/ProductPage';
+import Lense from './Product/Lense';
 function App() {
   return (
     <div className="App">
@@ -18,7 +19,8 @@ function App() {
       <Route path='/' element={<Intro/>}/>  
       <Route path='/home' element={<Intro/>}/>
       <Route path='/productPage' element={<ProductPage/>}/>
-         <Route path='/contact' element={<Contact/>}/>        
+      <Route path='/lense' element={<Lense/>}/>
+      <Route path='/contact' element={<Contact/>}/>        
         </Routes>
       </BrowserRouter>
       

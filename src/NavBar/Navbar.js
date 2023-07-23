@@ -16,10 +16,10 @@ const Navbar = () => {
     navigate("/ProductPage");
   };
   const ProductTwo = () => {
-    navigate("/ProductPage");
+    navigate("/lense");
   };
   const ProductThree = () => {
-    navigate("/ProductPage");
+    navigate("/contactlense");
   };
   return (
     <div className="nav-main-div">

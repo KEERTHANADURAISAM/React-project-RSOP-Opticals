@@ -1,4 +1,59 @@
-.productPage-main-head{
+.frame-main-div{
+    background-color: rgb(243, 235, 249);
+}
+.frames{
+    position: absolute;
+   
+}
+.frames-header-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 130px;
+    margin-left: 280px;
+    text-align: center;
+    padding: 20px;
+    
+}
+.frames-header{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
+    padding: 5px;
+}
+.frame-content{
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 15px;
+font-weight: bold;
+letter-spacing: 1px;
 
+}
+
+.productPage-main-grid{
+display:grid;
+/* grid-template-rows: repeat(13,300px); */
+grid-template-columns: repeat(2,600px);
+gap: 80px;
+    
+}
+.productPage-sub-grid{
+    display: grid;
+    grid-template-rows: repeat(12,450px);
+    /* gap: 80px; */
+    margin-top: 290px;
+    margin-left:230px;
+    padding: 20px;
+}
+.frames-details{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    /* padding: 10px; */
+     
+}
+.frame-head{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
     
 }
