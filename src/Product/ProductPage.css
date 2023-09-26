@@ -10,7 +10,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 130px;
+    margin-top: 60px;
     margin-left: 280px;
     text-align: center;
     padding: 20px;
@@ -39,8 +39,7 @@ gap: 80px;
 .productPage-sub-grid{
     display: grid;
     grid-template-rows: repeat(12,450px);
-    /* gap: 80px; */
-    margin-top: 290px;
+    margin-top: 190px;
     margin-left:230px;
     padding: 20px;
 }

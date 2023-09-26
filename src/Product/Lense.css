@@ -1,13 +1,12 @@
 .lense-bg-div{
-    background-color:white;
+    background-color:rgb(252, 238, 238);
    }
    .lense-header-div{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: relative;
-    top:100px;
+   
     }
    .lense-header{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -24,7 +23,7 @@
     display: grid;
     grid-template-columns: repeat(2,500px);
     gap: 50px;
-    margin-top: 200px;
+    margin-top: 100px;
     margin-left: 200px;
     padding: 20px;
 }
@@ -42,21 +41,40 @@
     font-family: cursive;
 }
 .main-content-view{
-    margin-top: 150px;
-    margin-left: 50px;
+    margin-top: 100px;
+    margin-left: 150px;
 }
-.lense-details-maingrid{
-    display: grid;
-    grid-template-columns: repeat(2,600px);
-    gap: 40px;
-}
-.lense-details-subgrid{
+@media screen and (max-width:600px) {
+    .lense-header-div{
+    min-width: 200px;  
+        }
+    .lense-main-grid{
         display: grid;
-    grid-template-rows: repeat(4,400px);
-    gap: 440px;
-
-}
-.lense-details-subgrids{
-    display: grid;
-    grid-template-rows: repeat(3,300px);
+        grid-template-columns: repeat(1,350px);
+        gap:0;
+    margin: 0;
+    }
+    .lense-main-grid img{
+        height: 250px;
+        width: 250px;
+    }
+    .lense-header-content{
+        margin: 10px;
+    }
+    .lense-content-div{
+margin: 0;
+  
+    }
+    .lense-subcontent{
+       margin: 20px;
+    }
+    .lense-maincontent{
+        min-width: 200px;
+        display: inline;
+        font-size: 16px;
+        margin:10px;
+    }
+    .main-content-view{
+        margin-left: 30px;
+    }
 }

@@ -18,7 +18,7 @@ import gap from './Product-img/GAP_Image_Small_72dpi-01-461x262-1.png'
 
 const ProductPage = () => {
   return (
-    <Base>
+    
     <div className='frame-main-div'>
     <div className='frames'>
    <div className='frames-header-div'>
@@ -137,7 +137,7 @@ Gap is an authority on modern American style. Founded in San Francisco in 1969, 
     </div>
     </div>
     </div>
-    </Base>
+    
 
   )
 }

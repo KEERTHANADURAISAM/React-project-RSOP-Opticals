@@ -1,0 +1,43 @@
+.power-container{
+    
+    background-color:rgb(247, 247, 247);
+    cursor: pointer;
+}
+.power-grid{
+    display: grid;
+    grid-template-columns: repeat(4,300px);
+    gap:40px;
+    padding: 40px;
+    
+    margin-left: 90px;
+}
+.power-img-div{
+    display: flex;
+    border-radius:10px;
+    height: 220px;
+    width: 220px;
+    background-color:rgb(234, 234, 234);
+    padding: 5px;
+    
+}
+.power-img{
+    border-radius: 10px;
+    
+    height: 100%;
+    width: 100%;
+}
+.power-img-div:hover{
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.75);
+    transition: width 2s;
+    transform: translateY(2px);
+
+}
+@media screen and (max-width:600PX) {
+    .power-grid{
+        display: grid;
+        grid-template-columns: repeat(2,250px);
+        gap:20;
+        margin: 0;
+
+    }
+}

@@ -1,16 +1,13 @@
 import './App.css';
 import Intro from './Intro/Intro';
-import Navbar from './NavBar/Navbar';
-import About from './AboutUs/About';
 import { BrowserRouter,Route, Routes } from 'react-router-dom';
-import Product from './Product/Product';
-import BookAppoinment from './Appoinment/BookAppoinment';
-import Footer from './Footer/Footer';
-import Base from './Base/Base';
 import Contact from './Contact/Contact';
-import ContactMedias from './Contact/ContactMedias';
 import ProductPage from './Product/ProductPage';
 import Lense from './Product/Lense';
+import PowerGlasses from './Product/PowerGlasses';
+import SunGlasses from './Product/SunGlasses';
+import VisionHealth from './Product/VisionHealth';
+import ProductHeaders from './Product/ProductHeaders';
 function App() {
   return (
     <div className="App">
@@ -18,9 +15,16 @@ function App() {
       <Routes>
       <Route path='/' element={<Intro/>}/>  
       <Route path='/home' element={<Intro/>}/>
-      <Route path='/productPage' element={<ProductPage/>}/>
-      <Route path='/lense' element={<Lense/>}/>
-      <Route path='/contact' element={<Contact/>}/>        
+      <Route path='/vision' element={<VisionHealth/>}/>
+      <Route path='/contact' element={<Contact/>}/>   
+      <Route path='/ProductHeader' element={<ProductHeaders/>}>
+          <Route path='ProductPage' element={<ProductPage/>}/>
+          <Route path='lense' element={<Lense/>}/>
+          <Route path='PowerGlasses' element={<PowerGlasses/>}/>
+          <Route path='SunGlasses' element={<SunGlasses/>}/>
+          
+        </Route>
+           
         </Routes>
       </BrowserRouter>
       

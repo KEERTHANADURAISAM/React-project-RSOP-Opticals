@@ -12,17 +12,15 @@ const Navbar = () => {
   const NavContact = () => {
     navigate("/contact");
   };
-  const ProductOne = () => {
-    navigate("/ProductPage");
-  };
-  const ProductTwo = () => {
-    navigate("/lense");
-  };
-  const ProductThree = () => {
-    navigate("/contactlense");
-  };
+  const ProductHeader = () =>{
+    navigate("/ProductHeader")
+  }
+  const visionHealth = () =>{
+    navigate("/vision")
+  }
+ 
   return (
-    <div className="nav-main-div">
+    
       <nav className="navbar-nav">
         <div className="logo-div">
           <img
@@ -34,26 +32,18 @@ const Navbar = () => {
         </div>
         <div className="nav-items">
           <p onClick={HomePage}>Home</p>
-          <div>
-            <p>Vision Health</p>
-          </div>
-          <div className="dropup">
-            <p>Products</p>
-            <div className="dropup-menu">
-              <a onClick={ProductOne}> Designer Frames</a>
-              <a onClick={ProductTwo}>Lenses</a>
-              <a onClick={ProductThree}>Contact Lenses</a>
-            </div>
-          </div>
-          <div>
-            <button className="contact-btn" onClick={NavContact}>
+          
+            <p onClick={visionHealth}>Vision Health</p>
+            <p onClick={ProductHeader}>Products</p>
+          
+            <p className="contact-btn" onClick={NavContact}>
               Contact us
-            </button>
+            </p>
           </div>
-        </div>
-        <div></div>
+        
+        
       </nav>
-    </div>
+    
   );
 };
 

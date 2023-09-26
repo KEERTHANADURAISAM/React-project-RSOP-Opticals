@@ -1,82 +1,299 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Cabin&family=Caveat:wght@700&family=Dancing+Script:wght@400;500&family=Foldit&family=League+Spartan:wght@500&family=Literata:wght@300;400&family=Noto+Serif+NP+Hmong:wght@500&family=Pacifico&family=Paytone+One&family=Poppins:ital,wght@1,300&family=Roboto:ital,wght@0,300;0,400;1,400&family=Sedgwick+Ave+Display&family=Slackey&display=swap');
-
-.grid-container{
-  /* width: 1268px; */
-  display: grid;
-  
-  grid-template-columns: repeat(2,480px);
-  gap: 80px;
-  background-color:#ebe9e9;  
-   
-}
-.grid-div{
-  font-family: 'Cabin';
-  display: flex;
-  flex-direction:column;
-  margin-left: 150px;
-  margin-top: 100px; 
-
-}
-.head-content{
-    padding:5px;
-    font-size:28px;
-    letter-spacing:2px;
-    font-weight: 400;
-    font-style: normal;
-}
-.btn-intro{
-    padding: 10px;
-    width: 150px;
-    background-color:#007AC8;
-    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
-    color: azure;
-    border: none;
-    border-radius:5px;
-}
-.intro-img-div{
-    display: flex;
-margin-left: 280px;    
-}
-.intro-img-div{
-    height:400px;
-    width: 400px;
-}
-.Card-position{
+@import url("https://fonts.googleapis.com/css2?family=Aclonica&family=Cabin&family=Caveat:wght@700&family=Dancing+Script:wght@400;500&family=Foldit&family=League+Spartan:wght@500&family=Literata:wght@300;400&family=Noto+Serif+NP+Hmong:wght@500&family=Pacifico&family=Paytone+One&family=Poppins:ital,wght@1,300&family=Roboto:ital,wght@0,300;0,400;1,400&family=Sedgwick+Ave+Display&family=Slackey&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aclonica&family=Cabin&family=Caveat:wght@700&family=Dancing+Script:wght@400;500&family=Foldit&family=League+Spartan:wght@500&family=Literata:wght@300;400&family=Noto+Serif+NP+Hmong:wght@500&family=Pacifico&family=Paytone+One&family=Poppins:ital,wght@1,300&family=Roboto:ital,wght@0,300;0,400;1,400&family=Sedgwick+Ave+Display&family=Slackey&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aclonica&family=Cabin&family=Caveat:wght@700&family=Dancing+Script:wght@400;500&family=Foldit&family=League+Spartan:wght@500&family=Literata:wght@300;400&family=Noto+Serif+NP+Hmong:wght@500&family=Pacifico&family=Paytone+One&family=Poppins:ital,wght@1,300&family=Roboto:ital,wght@0,300;0,400;1,400&family=Sedgwick+Ave+Display&family=Slackey&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aclonica&family=Cabin&family=Caveat:wght@700&family=Dancing+Script:wght@400;500&family=Foldit&family=League+Spartan:wght@500&family=Literata:wght@300;400&family=Noto+Serif+NP+Hmong:wght@500&family=Pacifico&family=Paytone+One&family=Poppins:ital,wght@1,300&family=Roboto:ital,wght@0,300;0,400;1,400&family=Sedgwick+Ave+Display&family=Slackey&display=swap");
+.intro-container {
   position: relative;
-  bottom:138px;
-  left:320px
 }
-.grid-card-container{
-    display: grid;
-    grid-template-columns: repeat(4,200px);
-    text-align: justify;
-    gap: 50px;
-    margin-left: 40px;
-  
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 320px);
+  gap: 80px;
+  background-color: #ebe9e9;
+  z-index: 1;
 }
-.avatar{
-    height:40px;
-    width:40px;
-    background-color: rgb(170, 168, 168);
-    border-radius: 50%;
-    margin-left: 17px;
-  }
-  .card-header{
-    /* margin-left: 7px; */
-    padding: 10px;
-  }
-.grid-card-design{
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    background-color:#F9F9F9;
-    border-radius: 10px;
-    box-shadow: 0px 4px 25px rgba(0,0,0,0.25);
-   }
-.card-content{
+.grid-div {
+  font-family: "Cabin";
+  display: flex;
+  flex-direction: column;
+  margin-left: 150px;
+  margin-top: 100px;
+}
+.head-content {
+  padding: 5px;
+  font-size: 28px;
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-style: normal;
+}
+.btn-intro {
+  padding: 10px;
+  width: 150px;
+  background-color: #007ac8;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+  color: azure;
+  border: none;
+  border-radius: 5px;
+}
+.intro-img-div {
+  display: flex;
+  margin-left: 280px;
+  height: 400px;
+  width: 400px;
+}
+
+.grid-card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 200px);
+  text-align: justify;
+  gap: 30px;
+  margin-left: 40px;
+  position: absolute;
+  top: 60%;
+  left: 35%;
+}
+.avatar {
+  height: 40px;
+  width: 40px;
+  background-color: rgb(170, 168, 168);
+  border-radius: 50%;
+  margin-left: 17px;
+}
+.card-header {
+  padding: 10px;
+}
+.grid-card-design {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+  /* position: absolute; */
+}
+.card-content {
   margin-left: 10px;
 }
-.add-items{
-  width: 100%;
+/* about page */
+
+.about-grid {
+  margin-top: 180px;
+  display: grid;
+  grid-template-columns: repeat(2, 550px);
+  background-color: #f9f9f9;
+  gap: 40px;
+}
+.about-img {
+  margin-top: 10px;
+  margin-left: 250px;
+}
+.about-content-div {
+  margin-top: 70px;
+  margin-left: 250px;
+  display: flex;
+  flex-direction: column;
+}
+.about-mainhead {
+  padding: 8px;
+}
+.about-subhead {
+  font-size: 20px;
+  font-family: "cabin";
+  letter-spacing: 1px;
+  padding: 8px;
+  text-align: justify;
+}
+.About-content {
+  padding: 8px;
+}
+.about-btn {
+  padding: 10px;
+  width: 100px;
+  border-radius: 10px;
+  border: none;
+  border: 2px solid #007ac8;
+}
+/* about page */
+.product-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pro-head {
+  padding: 5px;
+  margin-top: 40px;
+}
+.pro-content {
+  display: flex;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: 200;
+  font-family: "cabin";
+  text-align: start;
+}
+.pro-imgs {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-left: 30px;
+}
+.img-flex {
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+.img-name {
+  text-align: center;
+}
+/* appoinment */
+.book-grid-div {
+  
+  display: grid;
+  grid-template-columns: repeat(2,480px);
+  margin-top: 50px;
+  
+  background-color: #e6f2fa;
+  gap: 40px;
+}
+.book-img-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 200px;
+}
+.book-img {
+  display: flex;
+}
+.booking-content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-left: 200px;
+}
+.book-subhead {
+  font-family: "cabin";
+  font-weight: 600;
+}
+.book-text {
+  padding: 3px;
+}
+.btn-book {
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  width: 150px;
+  background-color: #007ac8;
+  border-radius: 10px;
+  color: white;
+  font-size: 16px;
+}
+.book-timing-div{
+    display: flex;
+    margin-top:30px;
+    gap:30px;
+}
+.timer-img {
+  
+  height: 40px;
+  width: 40px;
+}
+.book-time-head{
+    font-size: 22px;
+}
+.timing-details{
+    display: grid;
+    grid-template-columns: repeat(2,300px);
+    margin-top: 30px;
+    gap:30px;
+    background-color: #fefefe;
+    padding: 30px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+}
+.timing{
+    color: #007ac8;
+}
+
+@media screen and (max-width: 600px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    margin: 0;
+  }
+  .grid-div {
+    display: inline;
+    margin: 0;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .head-content {
+    font-size: 18px;
+  }
+  .intro-img-div {
+    height: 200px;
+    width: 200px;
+    margin-left: 50px;
+  }
+  .grid-card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    margin: 0;
+    position: static;
+    margin: 75px;
+  }
+  .about-grid {
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(1, 390px);
+    place-items: center;
+    padding: 10px;
+  }
+  .about-img {
+    margin: 0;
+    margin-left: 180px;
+    height: 200px;
+  }
+  .about-content-div {
+    margin: 0;
+    display: flex;
+    margin-left:200px;
+    /* justify-content: center;
+    align-items: center; */
+  }
+  .pro-content{
+    display: flex;
+    flex-direction: column;
+  }
+  .pro-imgs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+.book-grid-div{
+  display: grid;
+  grid-template-columns:1fr,2fr;
+  gap:0; 
+}
+.book-img-flex{
+  margin: 0;
+display: flex;
+}
+.book-img{
+  display: flex;
+}
+.book-text{
+text-align:start;
+font-size: 12px;
+}
+.booking-content{
+  margin: 0;
+display: flex;
+}
+.timing-details{
+  display: grid;
+  grid-template-columns: repeat(2,160px);
+  gap:0;
+}
 }

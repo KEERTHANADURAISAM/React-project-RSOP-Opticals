@@ -1,0 +1,9 @@
+.product-header-container{
+ margin-top: 10px;
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+ /* background-color:mintcream; */
+ gap:40px;
+ height: 200px;
+}

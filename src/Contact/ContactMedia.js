@@ -1,9 +1,6 @@
 import React from 'react'
 import './Cont.css'
-import ph from './telephone.png'
-import location from './pin.png'
-import watsapp from './whatsapp.png'
-import email from './email.png'
+
 const ContactMedias = () => {
   return (
     <div className='main-grid'>
