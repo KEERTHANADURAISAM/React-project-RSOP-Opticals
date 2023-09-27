@@ -32,12 +32,15 @@
     transform: translateY(2px);
 
 }
-@media screen and (max-width:600PX) {
+@media screen and (max-width:600PX) and (min-width: 400px){
     .power-grid{
         display: grid;
-        grid-template-columns: repeat(2,250px);
-        gap:20;
+        grid-template-columns: repeat(2,200px);
+        gap:10;
         margin: 0;
-
+    }
+    .power-img-div{
+        height: 180px;
+        width: 180px;
     }
 }

@@ -215,7 +215,7 @@
     color: #007ac8;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) and (min-width: 400px) {
   .grid-container {
     display: grid;
     grid-template-columns: repeat(2, 200px);

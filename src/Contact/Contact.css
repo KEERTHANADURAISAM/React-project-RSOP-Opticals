@@ -145,7 +145,7 @@ padding: 60px;
   height: 30px;
   width: 30px;
 }
-@media screen and (max-width:600px) {
+@media screen and (max-width:600px) and (min-width: 400px){
   .contact-main-container{
     display: flex;
     min-width: 200px;
