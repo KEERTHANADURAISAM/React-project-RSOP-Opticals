@@ -1,14 +1,11 @@
-.vision-header-div{
-    
+.vision-head {
+  display: grid;
+  grid-template-columns: repeat(2, 500px);
+  gap: 50px;
+  padding: 20px;
 }
-.vision-header-img{
-    position: relative;
-    height:100%;
-    width:400px;
-
-}
-.vision-head{
-    position: absolute;
-top:30%;
-
+.vision-ul{
+    margin-top: 20px;
+    margin-left: 40px;
+    padding: 10px;
 }

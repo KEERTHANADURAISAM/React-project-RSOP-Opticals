@@ -51,7 +51,11 @@ const Contact = () => {
       });
   };
 
-  const notify = () => toast.success("Message Send Successfully");
+  const notify = (name, message, email) => {
+  if (name && message && email !== "") {
+    toast.success("Message Send Successfully");
+  }
+}
 
   return (
     <Base>
@@ -130,6 +134,7 @@ const Contact = () => {
               placeholder="Your Name"
               value={name}
               onChange={(e) => setName(e.target.value)}
+              required
             />
             <input
               className="input-box"
@@ -137,6 +142,7 @@ const Contact = () => {
               placeholder="Your Email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
+              required
             />
             <textarea
               cols="30"
@@ -144,8 +150,11 @@ const Contact = () => {
               value={message}
               onChange={(e) => setMessage(e.target.value)}
               className="textarea-box"
+              required
             />
-            <button type="submit" className="send-btn" onClick={notify}>
+            <button type="submit" className="send-btn"  onClick={() => {
+              notify(name, message, email);
+            }}>
               Send
             </button>
             <Toaster />
