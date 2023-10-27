@@ -27,7 +27,7 @@ const Navbar = () => {
             src={imglogo}
             alt="logo"
             className="img-logo"
-            onClick={() => scroll.scrollToTop()}
+            onClick={HomePage}
           />
         </div>
         <div className="nav-items">

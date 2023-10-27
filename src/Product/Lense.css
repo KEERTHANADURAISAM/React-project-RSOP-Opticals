@@ -44,7 +44,7 @@
     margin-top: 100px;
     margin-left: 150px;
 }
-@media screen and (max-width: 480px) {
+@media screen and  (min-width: 320px) and (max-width: 480px){
     .lense-header-div{
     min-width: 200px;  
         }

@@ -19,6 +19,7 @@ function App() {
       <Route path='/contact' element={<Contact/>}/>   
       <Route path='/ProductHeader' element={<ProductHeaders/>}>
           <Route path='ProductPage' element={<ProductPage/>}/>
+          <Route index element={<PowerGlasses/>}/>
           <Route path='lense' element={<Lense/>}/>
           <Route path='PowerGlasses' element={<PowerGlasses/>}/>
           <Route path='SunGlasses' element={<SunGlasses/>}/>
